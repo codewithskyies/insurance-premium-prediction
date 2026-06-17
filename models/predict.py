@@ -16,7 +16,5 @@ def predict_output(user_input):
     print(input_df)
     print("\nColumns:")
     print(input_df.columns.tolist())
-
     prediction = model.predict(input_df)[0]
-
     return prediction
